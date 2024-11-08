@@ -19,7 +19,6 @@ h1 {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
   }
-  
 
 .container {
     margin: 20px;
@@ -43,7 +42,7 @@ h1 {
   }
   
   .folder-header::after {
-    content: "\2192 \1F5C0"; /* Unicode for arrow */
+    content: "\2192 \1F5C0"; /* Unicode for arrow and folder*/
     position: static;
     right: 50px;
     top: 50%;
@@ -58,18 +57,5 @@ h1 {
   .folder-content.show {
     display: block;
   }
-  
-  .folder-header.active::after {
-    transform: translateY(-50%) rotate(-90deg);
-  }
 
-  .containercol {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Equal width columns */
-    /* You can adjust the column widths using different units like px, % or fr */
-  }
-  
-  .column {
-    border: 1px solid black;
-    padding: 20px;
-  }
+

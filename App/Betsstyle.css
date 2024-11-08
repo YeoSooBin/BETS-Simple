@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: 10;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-family: 'futura', sans-serif; 
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(31, 17, 240);
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+.container {
+    margin: 20px;
+}

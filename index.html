@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Webpage</title>
+    <title>Buddy for Emerging Trends Scanning</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Buddy for Emerging Tech Scanning (BETS)</h1>
+        <h1>Buddy for Emerging Trends Scanning (BETS)</h1>
         <img src="Graphics\Robot.jpg" alt="Robot">
-        <p>(click folder icons to expand sections below!)</p>
+        <h5>(click folder icons to expand sections below!)</h5>
     </div>
     
     <div class="folder">
-        <h4 class="folder-header">What is the Problem?  </h4>
+        <h4 class="folder-header">⚠️ What is the Problem?  </h4>
         <div class="folder-content">
-            <h2>About <u>30 Strategic Planners</u> in a public insittuition</h2> 
-            <h2>need to go through a lot of material</h2>
-            <h2>to keep abreast of geopolitical, societal and technological trends.</h2>
-            <h2>They scan over 50 web-sources every month that use up <u>~20 man-hours</u> every month.</h2>
-            <h2>This results in anxiety over <u>missing out</u> on processing key information</h2>   
+            <h2>About <u>30 Strategic Planners</u> in a public instituition</h2> 
+            <h2>need to go through a lot of material to</h2>
+            <h2>keep up with <u>geopolitical and technological trends.</u></h2>
+            <h2>They scan over 50 web-sources every month</h2>
+            <h2>that use up <u>~20 man-hours</u> every month.</h2>
+            <h2>This results in anxiety over <u>missing out</u></h2>
+            <h2>on processing key information</h2>   
          </div>
     </div>
 
     <div class="folder">
-        <h4 class="folder-header">A typical User Journey without BETS </h4>
+        <h4 class="folder-header">👣 A typical User Journey without BETS </h4>
         <div class="folder-content">
             <div class="container">
                 <div class="column">
                     <img src="Graphics\Webpages.jpg" alt="folders">
-                    <p>Officers visit webpages (5 manhours/mth)</p></div>
+                    <h5>Officers visit webpages (5 manhours/mth)</h5></div>
                 <div class="column">
                     <img src="Graphics\brainprocessing.jpg" alt="processing">
-                    <p>Process info and extract what is relevant or new (10 manhours/mth)</p></div>
+                    <h5>Process info and extract what is relevant or new (10 manhours/mth)</h5></div>
                 <div class="column">
                     <img src="Graphics\newsletter.png" alt="newsletter">
-                    <p>Collate and publish as Newsletter (5 manhours/mth)</p></div>
+                    <h5>Collate and publish as Newsletter (5 manhours/mth)</h5></div>
               </div>
             <h4>A good solution would reduce the workload by at least 5 man-hours per month (25%)</h4> 
             <h4>A Stretch goal is to increase the coverage of articles scanned by at least 20%.</h4>
@@ -42,25 +44,55 @@
     </div>
 
     <div class="folder">
-        <h4 class="folder-header">Our idea on how to make things better    </h4>
+        <h4 class="folder-header"> 👥 What our Test-users users told us    </h4>
         <div class="folder-content">
-            <p>Content of Folder 2</p>
-                    </div>
-    </div>
-
-    <div class="folder">
-        <h2 class="folder-header">Our high fidelity prototype. Try it yourself!  </h2>
-        <div class="folder-content">
-            <p>Content of Folder 4</p>
-            <p>Want to provide feedback to help us improve? Click here</p>
+            <h5>We interviewed 4 users with low-fidelity prototypes (above), and obtained the following insights</h5>
+            <h4><u>(1) Maintenence-less</u></h4> 
+                <h5>Users don't mind small, recurring costs to buy digital services,</h5> 
+                <h5>but do not want to update backend codes or do patching!</h5>
+            <h4><u>(2) Functionality and Simplicity, not Look & Feel and Integration</u></h4>
         </div>
     </div>
 
     <div class="folder">
-        <h4 class="folder-header">What have our Test-users said?   </h4>
+        <h4 class="folder-header"> &#x1F4A1 Our Design Concept   </h4>
         <div class="folder-content">
-            <p>Content of Folder 3</p>
-                    </div>
+            <h4>We're building a web app that: 🖥️💻📱</h4>
+            
+                <p>&#x2022 Authenticates users via Google OAuth.</p>
+                <p>&#x2022 Collects keywords from the user.</p>
+                <p>&#x2022 Searches the web for relevant articles.</p>
+                <p>&#x2022 Uploads up to 49 articles to a Google Drive folder.</p>
+                <p>&#x2022 Transfers these files to Google's NotebookLM.</p>
+
+            <h4>Technology Stack:</h4>
+                <p>&#x2022 Frontend: HTML, CSS, JavaScript</p>
+                <p>&#x2022 Backend: Google Apps Script (to interact with Google Drive and NotebookLM)</p>
+                <p>&#x2022 Authentication: Google Identity Platform</p>
+
+            <!-- <h5>Notes on Google Apps Script (Backend) </h5> -->
+
+            <!-- <h6>Apps Script project to handle the backend logic:</h6>
+            
+            Search: Use the UrlFetchApp service to fetch search results from a search engine like Google Search.
+            Upload to Drive: Use the DriveApp service to create a folder and upload files.
+            Transfer to NotebookLM: Use the Notebook service to transfer files to NotebookLM.
+            Note:
+            
+            Google Identity Platform: You'll need to set up a Google Cloud Platform project and enable the Google Identity Platform.
+            Google Apps Script: You'll need to deploy the script as a web app to access it from your frontend.
+            Error Handling: Implement error handling in both the frontend and backend to provide informative feedback to the user.
+            User Experience: Consider adding features like progress bars, notifications, and a more user-friendly interface.</h6> -->
+
+        </div>
+    </div>
+
+    <div class="folder">
+        <h2 class="folder-header">Our high fidelity prototype. Try it!  </h2>
+        <div class="folder-content">
+            <p>Content of Folder 4</p>
+            <p>Want to provide feedback to help us improve? Click here</p>
+        </div>
     </div>
     
     <script src="script.js"></script>
