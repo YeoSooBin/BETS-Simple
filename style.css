@@ -31,7 +31,7 @@ h1 {
 }
 
 .folder {
-    border-top: 1px solid #4d5368; /* Adjust the border color and thickness as needed */
+    border-top: 0.5px dashed #4d5368; /* Adjust the border color and thickness as needed */
     margin: 20px 0; /* Adjust the margins to control the spacing above and below the line */
 }
 
@@ -52,6 +52,9 @@ h1 {
   
   .folder-content {
     display: none;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
   }
   
   .folder-content.show {
