@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Focused Search" />
+        <meta name="description" content="NotebookLM" />
         <meta name="author" content="Yeo Soo Bin" />
-        <title>Landing Page</title>
+        <title>Editor Module</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -17,13 +17,13 @@
     </head>
 
     <body>
-                <!-- Navigation-->
+        <!-- Navigation-->
        <nav class="nav nav-pills flex-column flex-sm-row">
             <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Home</a>
             <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Overview of BETS</a>
-            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Focused Search module</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Focused Search module</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="#">Editor Module</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">NotebookLM</a>
+            <a class="flex-sm-fill text-sm-center nav-link active" href="#">NotebookLM</a>
         </nav>
 
         <!-- Masthead-->
@@ -49,28 +49,22 @@
             </div>
             <div class="card-body">
                 <p class="card-text">
-                It is possible to activate filters by inputing flags into search boxes, 
-                but most layman users would not be able to do so easily.
-                What we have done is to pre-program such a filtered Search using 
-                <a href="https://programmablesearchengine.google.com/">Google's Customisable Search Engine</a>(CSE),
-                and presenting it in this page. 
+                NootebookLM is a Google experimental platform that applies Gen-AI technology to a repository
+                and produces written products based on the knowledge in the repository.
+                Unfortunately, Google has not released an API for her NotebookLM platform. 
+                When they do, we will try and use Google APIs to download the files discovered by Search
+                and use NotebookLM to produce products and podcasts. 
+                See the samples below for a teaser of what is possible!
                 </p>
-                <p>For the purpose of this prototype, we have limited the search to 30 web domains 
-                that focus on future trends. Use this search function to get a feel of the "hit-rate"! 
-                You can also request for addition and deletion of web-domains to be covered 
-                by writing to yeosoobin@gmail.com.
-                </p>
-                <p>Use Navbar at the top to check out the Editor module and NotebookLM 
-                    to help generate Products for your audience!</p>
             </div>
         </div>
+ 
+        <p>A "Notebook" I am using to understand the risk of Lithium-ion Batteries in Data Centres.</p>
+        <p>NotebookLM also allows the AI-generation of podcasts that I can listen to. 
+            <a href="https://notebooklm.google.com/notebook/0c5d2a4c-08c4-46ea-a051-74fc6586744b/audio">Click here</a> to listen to the podcast created from this "Notebook".
+        </p>
+        <img src="./assets/Images/NotebookLM.png">
 
-        <!-- CSE -->
-         <p></p>
-
-         <script async src="https://cse.google.com/cse.js?cx=d1f5be89c89394b36">
-        </script>
-        <div class="gcse-search"></div>
 
         <!--3 Footer-->
         <footer class="footer bg-light">
