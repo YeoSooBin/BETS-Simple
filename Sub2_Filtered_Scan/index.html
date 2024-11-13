@@ -17,12 +17,12 @@
     </head>
 
     <body>
-        <!-- Navigation-->
+                <!-- Navigation-->
        <nav class="nav nav-pills flex-column flex-sm-row">
             <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Overview of BETS</a>
             <a class="flex-sm-fill text-sm-center nav-link active" href="#">Focused Search module</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="#">Editor Module</a>
-            <a class="flex-sm-fill text-sm-center nav-link" ahref="#">NotebookLM</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">NotebookLM</a>
         </nav>
 
         <!-- Masthead-->
@@ -41,7 +41,35 @@
             </div>
         </header>
 
+        <!-- Greeting information -->
+        <div class="card text-bg-info mb-3" style="max-width: 180rem;">
+            <div class="card-header">
+                Hello Friend!
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                It is possible to activate filters by inputing flags into search boxes, 
+                but most layman users would not be able to do so easily.
+                What we have done is to pre-program such a filtered Search using 
+                <a href="https://programmablesearchengine.google.com/">Google's Customisable Search Engine</a>(CSE),
+                and presenting it in this page. 
+                </p>
+                <p>For the purpose of this prototype, we have limited the search to 30 web domains 
+                that focus on future trends. Use this search function to get a feel of the "hit-rate"! 
+                You can also request for addition and deletion of web-domains to be covered 
+                by writing to yeosoobin@gmail.com.
+                </p>
+                <p>Use Navbar at the top to check out the Editor module and NotebookLM 
+                    to help generate Products for your audience!</p>
+            </div>
+        </div>
 
+        <!-- CSE -->
+         <p></p>
+
+         <script async src="https://cse.google.com/cse.js?cx=d1f5be89c89394b36">
+        </script>
+        <div class="gcse-search"></div>
 
         <!--3 Footer-->
         <footer class="footer bg-light">
