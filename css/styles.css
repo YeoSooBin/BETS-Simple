@@ -4412,7 +4412,7 @@ textarea.form-control-lg {
 
 .accordion-header {
   margin-bottom: 0;
-}
+  }
 
 .accordion-item {
   color: var(--bs-accordion-color);
